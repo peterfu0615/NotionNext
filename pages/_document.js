@@ -12,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang={BLOG.LANG}>
         <Head>
-          {/* 预加载字体 */}
+          {/* 预加载字体
           {BLOG.FONT_AWESOME && (
             <>
               <link
@@ -28,7 +28,7 @@ class MyDocument extends Document {
                 referrerPolicy='no-referrer'
               />
             </>
-          )}
+          )} */}
         </Head>
 
         <body>
